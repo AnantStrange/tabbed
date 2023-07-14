@@ -43,7 +43,7 @@ static Key keys[] = {
 
 	{ ControlMask|ShiftMask,     XK_Right,      rotate,      { .i = +1 } },
 	{ ControlMask|ShiftMask,     XK_Left,       rotate,      { .i = -1 } },
-	{ MODKEY,     XK_l,      rotate,      { .i = +1 } },
+	{ MODKEY,     XK_l,      rotate,      { .i = -1 } },
 	{ MODKEY,     XK_h,      rotate,      { .i = +1 } },
 	{ MODKEY|ShiftMask,     XK_j,      movetab,     { .i = -1 } },
 	{ MODKEY|ShiftMask,     XK_k,      movetab,     { .i = +1 } },
